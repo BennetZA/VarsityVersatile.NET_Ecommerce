@@ -1,0 +1,203 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="VVMasterPage.master.cs" Inherits="IntelliCode.VVMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>VarsityVersatile</title>
+    <link rel="stylesheet" href="css/stylesMaster.css" type="text/css" /> <!--referencing css file-->
+    <link rel="stylesheet" href="css/Mystyle.css" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/TextBooksStyle.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <!--banner image-->
+        <div id="Wrapper">
+        
+             
+           
+          <!-- Setting Up Banner-->
+        <div id="banner" >
+          <b> <a>
+              <marquee scrollamount="7" behavior="slide" direction="left">
+                 <span class="bigV">V</span>
+                      <span class ="fontbanner">asrity</span>
+            </marquee>
+
+              <marquee scrollamount="17" behavior="alternate" style="color: white" >
+                  <span class ="welcometext">varsityversatile.co.za!</span>
+                </marquee>
+
+
+                 <marquee scrollamount="7" behavior ="slide" direction ="right">
+                   <span class="bigV">V</span>
+                   <span class ="fontbanner">ersatile</span>
+            </marquee>
+          </a>  </b>
+
+              
+          
+                
+        </div>
+
+
+
+
+
+
+             <div class = "toplayer">
+		     <h4 align ="center">  <span class="slogan" >VarcityVersetile.co.za "We Care About You! "</span>   </h4>
+			
+             
+               <ul class = "navigation">
+			     <li><a href = "Index.aspx">Home</a></li>
+				 <li><a  class = "outerSub" href = "#"> Electronics</a>
+                     <ul class="Submenus">
+                         <li><a href="Electronics.aspx?Category=Laptop">Laptops & Apple Mac </a></li>
+                         <li><a href="Electronics.aspx?Category=Mobile">Mobile Phones </a></li>
+                         <li><a href="Electronics.aspx?Category=Tablet">Tablets & iPads</a></li>
+                         
+
+                     </ul>	 
+				</li>
+                <li><a   class = "outerSub" href = "Clothing.aspx"> Clothing </a>
+				     <ul class = "Submenus">
+				         <li><a href = "Clothing.aspx?cat=Ladies_Fashion"> Ladies Fashion</a></li>
+					     <li><a href = "Clothing.aspx?cat=Mens_Fashion"> Mens Fashion </a></li>
+					     <li><a href = "Clothing.aspx?cat=Accessories"> Accessories </a></li>
+					 </ul>	 
+				</li>	
+                 <li><a  class = "outerSub"href = "TextBooks.aspx"> Text Books</a>
+				     <ul class = "Submenus">
+				         <li><a href = "ComputerScience.aspx">Computer Science </a></li>
+					     <li><a href = "Engineering.aspx"> Engineering</a></li>
+					     <li><a href="Education.aspx">Education</a></li>
+					    
+					 </ul>	 
+				</li>
+                   <li><a  class = "outerSub"href = "#">Stationary</a>
+				     <ul class = "Submenus">
+				         <li><a href = "Stationary.aspx?Category=LiteratureAndArt">Literature & art</a></li>
+					     <li><a href = "Stationary.aspx?Category=Mathset"> Mathematical & Accounting set</a></li>
+					     <li><a href = "Stationary.aspx?Category=other"> Other </a></li>
+					 
+					 </ul>	
+                
+             </li>
+                         <li ><a href = "#"> About Us </a></li>
+                          <li><a href = "#"> Contacts </a></li>
+                   
+                    <a href="www.twitter.com/bennet_za">
+                        <img src="img/socialm/twitter-webtreatsetc.png"width="70px" height="70px" href />
+
+                    </a>
+
+                    <a href="www.facebook.com/theclickclue">
+                        <img src="img/socialm/098432-blue-metallic-orb-icon-social-media-logos-facebook-logo.png"width="77px" height="77px" href />
+
+                    </a>
+                   
+    >
+              </ul>
+				 
+		 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+      
+                          
+        
+    
+            <div id="content-area">
+                   <div align ="center" id="cartMenu" runat ="server" ></div>
+                   <div align="right" id="Rout" runat="server">  </div>
+
+
+
+
+                <!--MAnager-->
+
+                   <table>
+          <tr>
+              <td>
+                  <asp:HyperLink ID="Add" runat="server" Visible="False" NavigateUrl="~/ProductAdditionPage.aspx" ForeColor="#CC33FF">AddProduct</asp:HyperLink>
+    <br />
+                  </td>
+               <td>
+                     <asp:HyperLink ID="Delete" runat="server" Visible="False" NavigateUrl="~/ProductDeletionPage.aspx" ForeColor="#CC33FF">DeleteProduct</asp:HyperLink>
+    <br />
+                  </td>
+               <td>
+                    <asp:HyperLink ID="Edit" runat="server" Visible="False" NavigateUrl="~/ProductEditPage.aspx" ForeColor="#CC33FF">Edit product</asp:HyperLink>
+                  </td>
+              </tr>
+      </table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+              
+        </div>
+
+        <div id="Top">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="Mid">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="Bott">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footer">
+            <p>© 2015 IntelliCode All Rights Reserved </p>
+        </div>
+
+    </div>
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+c:\users\bennet\documents\visual studio 2012\Projects\IntelliCode\IntelliCode\bin\IntelliCode.dll
+c:\users\bennet\documents\visual studio 2012\Projects\IntelliCode\IntelliCode\bin\IntelliCode.pdb
+c:\users\bennet\documents\visual studio 2012\Projects\IntelliCode\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+c:\users\bennet\documents\visual studio 2012\Projects\IntelliCode\IntelliCode\obj\Debug\IntelliCode.dll
+c:\users\bennet\documents\visual studio 2012\Projects\IntelliCode\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\General\Desktop\IntelliCode\IntelliCode\bin\IntelliCode.dll
+C:\Users\General\Desktop\IntelliCode\IntelliCode\bin\IntelliCode.pdb
+C:\Users\General\Desktop\IntelliCode\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\General\Desktop\IntelliCode\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\General\Desktop\IntelliCode\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\sakhile\Desktop\IntelliCode\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\sakhile\Desktop\IntelliCode\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\sakhile\Desktop\IntelliCode\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\sakhile\Desktop\IntelliCode\IntelliCode\bin\IntelliCode.dll
+C:\Users\sakhile\Desktop\IntelliCode\IntelliCode\bin\IntelliCode.pdb
+C:\Users\sakhile\Documents\desktop\gp\IntelliCode\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\sakhile\Documents\desktop\gp\IntelliCode\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\sakhile\Documents\desktop\gp\IntelliCode\IntelliCode\bin\IntelliCode.dll
+C:\Users\sakhile\Documents\desktop\gp\IntelliCode\IntelliCode\bin\IntelliCode.pdb
+C:\Users\sakhile\Documents\desktop\gp\IntelliCode\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\sakhile\Documents\desktop\gp\IntelliCode Sakhile\IntelliCode\bin\IntelliCode.dll
+C:\Users\sakhile\Documents\desktop\gp\IntelliCode Sakhile\IntelliCode\bin\IntelliCode.pdb
+C:\Users\sakhile\Documents\desktop\gp\IntelliCode Sakhile\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\sakhile\Documents\desktop\gp\IntelliCode Sakhile\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\sakhile\Documents\desktop\gp\IntelliCode Sakhile\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\Bennet\Videos\IntelliCode Sakhile\IntelliCode\bin\IntelliCode.dll
+C:\Users\Bennet\Videos\IntelliCode Sakhile\IntelliCode\bin\IntelliCode.pdb
+C:\Users\Bennet\Videos\IntelliCode Sakhile\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\Bennet\Videos\IntelliCode Sakhile\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\Bennet\Videos\IntelliCode Sakhile\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\General\Downloads\IntelliCode Sakhile\IntelliCode\bin\IntelliCode.dll
+C:\Users\General\Downloads\IntelliCode Sakhile\IntelliCode\bin\IntelliCode.pdb
+C:\Users\General\Downloads\IntelliCode Sakhile\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\General\Downloads\IntelliCode Sakhile\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\General\Downloads\IntelliCode Sakhile\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\Bennet\Documents\Visual Studio 2012\Projects\IntelliCode BenZ\IntelliCode BenZ\IntelliCode\bin\IntelliCode.dll
+C:\Users\Bennet\Documents\Visual Studio 2012\Projects\IntelliCode BenZ\IntelliCode BenZ\IntelliCode\bin\IntelliCode.pdb
+C:\Users\Bennet\Documents\Visual Studio 2012\Projects\IntelliCode BenZ\IntelliCode BenZ\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\Bennet\Documents\Visual Studio 2012\Projects\IntelliCode BenZ\IntelliCode BenZ\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\Bennet\Documents\Visual Studio 2012\Projects\IntelliCode BenZ\IntelliCode BenZ\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\General\Desktop\IntelliCode BenZ\IntelliCode\bin\IntelliCode.dll
+C:\Users\General\Desktop\IntelliCode BenZ\IntelliCode\bin\IntelliCode.pdb
+C:\Users\General\Desktop\IntelliCode BenZ\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\General\Desktop\IntelliCode BenZ\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\General\Desktop\IntelliCode BenZ\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\sakhile\Documents\desktop\IntelliCode BenZ\IntelliCode\bin\IntelliCode.dll
+C:\Users\sakhile\Documents\desktop\IntelliCode BenZ\IntelliCode\bin\IntelliCode.pdb
+C:\Users\sakhile\Documents\desktop\IntelliCode BenZ\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\sakhile\Documents\desktop\IntelliCode BenZ\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\sakhile\Documents\desktop\IntelliCode BenZ\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\Bennet\Music\IntelliCode BenZ\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\Bennet\Music\IntelliCode BenZ\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\Bennet\Music\IntelliCode BenZ\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\Bennet\Music\IntelliCode BenZ\IntelliCode\bin\IntelliCode.dll
+C:\Users\Bennet\Music\IntelliCode BenZ\IntelliCode\bin\IntelliCode.pdb
+C:\Users\Bennet\Music\IntelliCode NEW\IntelliCode\bin\IntelliCode.dll
+C:\Users\Bennet\Music\IntelliCode NEW\IntelliCode\bin\IntelliCode.pdb
+C:\Users\Bennet\Music\IntelliCode NEW\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\Bennet\Music\IntelliCode NEW\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\Bennet\Music\IntelliCode NEW\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\General\Downloads\IntelliCode NEW\IntelliCode\bin\IntelliCode.dll
+C:\Users\General\Downloads\IntelliCode NEW\IntelliCode\bin\IntelliCode.pdb
+C:\Users\General\Downloads\IntelliCode NEW\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\General\Downloads\IntelliCode NEW\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\General\Downloads\IntelliCode NEW\IntelliCode\obj\Debug\IntelliCode.pdb
+C:\Users\General\Downloads\IntelliCode NEW\IntelliCode NEW\IntelliCode\bin\IntelliCode.dll
+C:\Users\General\Downloads\IntelliCode NEW\IntelliCode NEW\IntelliCode\bin\IntelliCode.pdb
+C:\Users\General\Downloads\IntelliCode NEW\IntelliCode NEW\IntelliCode\obj\Debug\IntelliCode.csprojResolveAssemblyReference.cache
+C:\Users\General\Downloads\IntelliCode NEW\IntelliCode NEW\IntelliCode\obj\Debug\IntelliCode.dll
+C:\Users\General\Downloads\IntelliCode NEW\IntelliCode NEW\IntelliCode\obj\Debug\IntelliCode.pdb

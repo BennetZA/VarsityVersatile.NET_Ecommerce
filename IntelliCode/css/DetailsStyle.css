@@ -1,0 +1,31 @@
+﻿
+.Display
+{
+   background-color : #e0d61d; 
+   height: 50px;
+   width : 990px;
+   margin : auto;	
+   padding : inherit;
+   color : purple;	
+   border-radius : 10px 10px 10px 10px;		
+}
+.DesDisplay
+{
+   background-color : #c1ea33; 
+   height: 100px;
+   width : 1000px;
+   margin : auto;	
+   padding : inherit;
+   color : #44043c;	
+   border-radius : 10px 10px 10px 10px;		
+}
+
+img:hover {
+    background-color : skyblue;
+    border-style:dotted;
+     border-radius : 0px;
+     border-width : 0px;
+}
+
+
+

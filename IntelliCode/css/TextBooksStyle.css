@@ -1,0 +1,51 @@
+﻿
+body  {
+    color : purple;
+}
+
+.Display
+{
+   background-color : #163e64 ; 
+   height: 50px;
+   width : 324px;
+   margin : auto;	
+   padding : inherit;
+   color : purple;	
+   border-radius : 10px 10px 10px 10px;		
+}
+.DesDisplay
+{
+   background-color : #ffffff; 
+   height: 100px;
+   width : 324px;
+   margin : auto;	
+   padding : inherit;
+   color : #808080;	
+   border-radius : 10px 10px 10px 10px;		
+}
+a:hover
+ {
+
+     border-radius : 1px;
+     border-width : 0px;
+ }
+img:hover {
+
+     border-radius : 0px;
+     border-width : 0px;
+}
+
+ul {
+border-spacing:20px 100px;
+}
+
+li {
+    text-decoration-line : none;
+    float : left;
+    display :  block;
+    display : inline;
+    border-spacing:20px 100px;
+ 
+}
+
+

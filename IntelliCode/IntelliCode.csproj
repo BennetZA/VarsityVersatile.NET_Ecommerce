@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D94A2217-67C3-4CCB-A644-B427EC83B64C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IntelliCode</RootNamespace>
+    <AssemblyName>IntelliCode</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\IntelliDB.mdf" />
+    <Content Include="App_Data\IntelliDB_log.ldf">
+      <DependentUpon>IntelliDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="Clothing.aspx" />
+    <Content Include="ClothingDetails.aspx" />
+    <Content Include="ComputerScience.aspx" />
+    <Content Include="css\DetailsStyle.css" />
+    <Content Include="css\ListStyle.css" />
+    <Content Include="css\Mystyle.css" />
+    <Content Include="css\RegStyle.css" />
+    <Content Include="css\Stationary.css" />
+    <Content Include="css\style6.css" />
+    <Content Include="css\stylesMaster.css" />
+    <Content Include="css\TextBooksStyle.css" />
+    <Content Include="Education.aspx" />
+    <Content Include="Electronics.aspx" />
+    <Content Include="ElectronicsDetails.aspx" />
+    <Content Include="Engineering.aspx" />
+    <Content Include="img\bg\1960757.jpg" />
+    <Content Include="img\bg\1wallpaper_black_blue_hd_11.jpg" />
+    <Content Include="img\bg\contentbg.jpg" />
+    <Content Include="img\bg\Dark-Blue-Abstract-Polka-Dot-Background-Vector-01.jpg" />
+    <Content Include="img\bg\halo-reach-black-blue-dark-2547292-1920x1080.jpg" />
+    <Content Include="img\clothing\1.jpg" />
+    <Content Include="img\clothing\13.jpg" />
+    <Content Include="img\clothing\14.jpg" />
+    <Content Include="img\clothing\15.jpg" />
+    <Content Include="img\clothing\16.jpg" />
+    <Content Include="img\clothing\20.jpg" />
+    <Content Include="img\clothing\21.jpg" />
+    <Content Include="img\clothing\22.jpg" />
+    <Content Include="img\clothing\23.jpg" />
+    <Content Include="img\clothing\25.jpeg" />
+    <Content Include="img\clothing\26.jpg" />
+    <Content Include="img\clothing\27.jpg" />
+    <Content Include="img\clothing\28.jpg" />
+    <Content Include="img\clothing\29.jpg" />
+    <Content Include="img\clothing\30.jpg" />
+    <Content Include="img\clothing\31.jpg" />
+    <Content Include="img\clothing\33.jpg" />
+    <Content Include="img\clothing\4.jpg" />
+    <Content Include="img\clothing\5.jpg" />
+    <Content Include="img\clothing\6.jpg" />
+    <Content Include="img\clothing\8.jpg" />
+    <Content Include="img\clothing\9.jpg" />
+    <Content Include="img\clothing\accessories.jpg" />
+    <Content Include="img\clothing\earings.jpg" />
+    <Content Include="img\clothing\manNecklace.jpg" />
+    <Content Include="img\clothing\mansHat.jpg" />
+    <Content Include="img\clothing\men.jpg" />
+    <Content Include="img\clothing\menGlass.jpg" />
+    <Content Include="img\clothing\mensBag.jpg" />
+    <Content Include="img\clothing\menWatch.jpg" />
+    <Content Include="img\clothing\pants.jpg" />
+    <Content Include="img\clothing\ring.jpg" />
+    <Content Include="img\clothing\s3.jpg" />
+    <Content Include="img\clothing\womansBag.jpg" />
+    <Content Include="img\clothing\womansHat.jpg" />
+    <Content Include="img\clothing\women.jpg" />
+    <Content Include="img\clothing\womenGlass.jpg" />
+    <Content Include="img\clothing\womenWatch.jpg" />
+    <Content Include="img\electronics\L1.png" />
+    <Content Include="img\electronics\L10.png" />
+    <Content Include="img\electronics\L11.png" />
+    <Content Include="img\electronics\L12.png" />
+    <Content Include="img\electronics\L13.png" />
+    <Content Include="img\electronics\L14.png" />
+    <Content Include="img\electronics\L15.png" />
+    <Content Include="img\electronics\L16.png" />
+    <Content Include="img\electronics\L17.png" />
+    <Content Include="img\electronics\L18.png" />
+    <Content Include="img\electronics\L19.png" />
+    <Content Include="img\electronics\L2.jpg" />
+    <Content Include="img\electronics\L20.png" />
+    <Content Include="img\electronics\L21.png" />
+    <Content Include="img\electronics\L22.PNG" />
+    <Content Include="img\electronics\L23.png" />
+    <Content Include="img\electronics\L24.png" />
+    <Content Include="img\electronics\L25.png" />
+    <Content Include="img\electronics\L27.png" />
+    <Content Include="img\electronics\L28.png" />
+    <Content Include="img\electronics\L3.png" />
+    <Content Include="img\electronics\L4.png" />
+    <Content Include="img\electronics\L6.png" />
+    <Content Include="img\electronics\L7.png" />
+    <Content Include="img\electronics\L8.png" />
+    <Content Include="img\electronics\L9.png" />
+    <Content Include="img\electronics\m1.png" />
+    <Content Include="img\electronics\m10.png" />
+    <Content Include="img\electronics\m11.jpg" />
+    <Content Include="img\electronics\m11.png" />
+    <Content Include="img\electronics\m12.jpg" />
+    <Content Include="img\electronics\m13.jpg" />
+    <Content Include="img\electronics\m14.jpg" />
+    <Content Include="img\electronics\m14.png" />
+    <Content Include="img\electronics\m15.png" />
+    <Content Include="img\electronics\m16.png" />
+    <Content Include="img\electronics\m17.jpg" />
+    <Content Include="img\electronics\m18.png" />
+    <Content Include="img\electronics\m19.png" />
+    <Content Include="img\electronics\m2.png" />
+    <Content Include="img\electronics\m20.png" />
+    <Content Include="img\electronics\m21.png" />
+    <Content Include="img\electronics\m22.jpg" />
+    <Content Include="img\electronics\m22.png" />
+    <Content Include="img\electronics\m23.jpg" />
+    <Content Include="img\electronics\m23.png" />
+    <Content Include="img\electronics\m26.png" />
+    <Content Include="img\electronics\m27.png" />
+    <Content Include="img\electronics\m28.png" />
+    <Content Include="img\electronics\m3.png" />
+    <Content Include="img\electronics\m4.jpg" />
+    <Content Include="img\electronics\m4.png" />
+    <Content Include="img\electronics\m5.jpg" />
+    <Content Include="img\electronics\m6.png" />
+    <Content Include="img\electronics\m7.jpeg" />
+    <Content Include="img\electronics\m7.png" />
+    <Content Include="img\electronics\m8.png" />
+    <Content Include="img\electronics\m9.png" />
+    <Content Include="img\electronics\t1.png" />
+    <Content Include="img\electronics\t10.png" />
+    <Content Include="img\electronics\t11.png" />
+    <Content Include="img\electronics\t13.png" />
+    <Content Include="img\electronics\t14.png" />
+    <Content Include="img\electronics\t15.png" />
+    <Content Include="img\electronics\t16.png" />
+    <Content Include="img\electronics\t17.png" />
+    <Content Include="img\electronics\t18.png" />
+    <Content Include="img\electronics\t19.png" />
+    <Content Include="img\electronics\t2.png" />
+    <Content Include="img\electronics\t20.png" />
+    <Content Include="img\electronics\t21.png" />
+    <Content Include="img\electronics\t22.png" />
+    <Content Include="img\electronics\t23.png" />
+    <Content Include="img\electronics\t24.png" />
+    <Content Include="img\electronics\t25.png" />
+    <Content Include="img\electronics\t26.png" />
+    <Content Include="img\electronics\t4.png" />
+    <Content Include="img\electronics\t5.png" />
+    <Content Include="img\electronics\t8.png" />
+    <Content Include="img\electronics\t9.png" />
+    <Content Include="img\logo\VarsityVersitileLogo2.png" />
+    <Content Include="img\logo\VarsityVersitileLogoOfficial.png" />
+    <Content Include="img\socialm\098432-blue-metallic-orb-icon-social-media-logos-facebook-logo.png" />
+    <Content Include="img\socialm\twitter-webtreatsetc.png" />
+    <Content Include="img\stationary\Simg1.png" />
+    <Content Include="img\stationary\sImg10.png" />
+    <Content Include="img\stationary\sImg11.png" />
+    <Content Include="img\stationary\sImg12.png" />
+    <Content Include="img\stationary\sImg13.png" />
+    <Content Include="img\stationary\sImg14.png" />
+    <Content Include="img\stationary\sImg15.png" />
+    <Content Include="img\stationary\sImg16.png" />
+    <Content Include="img\stationary\sImg17.png" />
+    <Content Include="img\stationary\sImg18.png" />
+    <Content Include="img\stationary\sImg19.png" />
+    <Content Include="img\stationary\sImg2.jpg" />
+    <Content Include="img\stationary\sImg20.png" />
+    <Content Include="img\stationary\sImg21.png" />
+    <Content Include="img\stationary\sImg22.png" />
+    <Content Include="img\stationary\sImg23.png" />
+    <Content Include="img\stationary\sImg24.png" />
+    <Content Include="img\stationary\sImg25.png" />
+    <Content Include="img\stationary\sImg26.png" />
+    <Content Include="img\stationary\sImg27.png" />
+    <Content Include="img\stationary\sImg28.png" />
+    <Content Include="img\stationary\sImg29.png" />
+    <Content Include="img\stationary\sImg3.png" />
+    <Content Include="img\stationary\sImg30.png" />
+    <Content Include="img\stationary\sImg31.png" />
+    <Content Include="img\stationary\sImg33.png" />
+    <Content Include="img\stationary\sImg34.png" />
+    <Content Include="img\stationary\sImg35.png" />
+    <Content Include="img\stationary\sImg36.png" />
+    <Content Include="img\stationary\sImg37.png" />
+    <Content Include="img\stationary\sImg38.png" />
+    <Content Include="img\stationary\sImg39.png" />
+    <Content Include="img\stationary\sImg4.png" />
+    <Content Include="img\stationary\sImg40.png" />
+    <Content Include="img\stationary\sImg41.png" />
+    <Content Include="img\stationary\sImg42.png" />
+    <Content Include="img\stationary\sImg43.png" />
+    <Content Include="img\stationary\sImg45.png" />
+    <Content Include="img\stationary\sImg46.png" />
+    <Content Include="img\stationary\sImg47.png" />
+    <Content Include="img\stationary\sImg48.png" />
+    <Content Include="img\stationary\sImg49.png" />
+    <Content Include="img\stationary\sImg5.jpg" />
+    <Content Include="img\stationary\sImg5.png" />
+    <Content Include="img\stationary\sImg50.png" />
+    <Content Include="img\stationary\sImg6.png" />
+    <Content Include="img\stationary\sImg7.png" />
+    <Content Include="img\stationary\sImg8.png" />
+    <Content Include="img\stationary\sImg9.png" />
+    <Content Include="img\stationary\stationery-8674269.jpg" />
+    <Content Include="img\stationary\StationerySO.png" />
+    <Content Include="img\stationary\Untitled-16.jpeg" />
+    <Content Include="img\TextBooks\1.png" />
+    <Content Include="img\TextBooks\10.png" />
+    <Content Include="img\TextBooks\11.png" />
+    <Content Include="img\TextBooks\12.png" />
+    <Content Include="img\TextBooks\13.png" />
+    <Content Include="img\TextBooks\14.png" />
+    <Content Include="img\TextBooks\15.png" />
+    <Content Include="img\TextBooks\16.png" />
+    <Content Include="img\TextBooks\17.png" />
+    <Content Include="img\TextBooks\18.png" />
+    <Content Include="img\TextBooks\19.png" />
+    <Content Include="img\TextBooks\2.png" />
+    <Content Include="img\TextBooks\20.png" />
+    <Content Include="img\TextBooks\21.png" />
+    <Content Include="img\TextBooks\22.png" />
+    <Content Include="img\TextBooks\23.png" />
+    <Content Include="img\TextBooks\24.png" />
+    <Content Include="img\TextBooks\25.png" />
+    <Content Include="img\TextBooks\26.png" />
+    <Content Include="img\TextBooks\27.png" />
+    <Content Include="img\TextBooks\28.png" />
+    <Content Include="img\TextBooks\29.png" />
+    <Content Include="img\TextBooks\3.png" />
+    <Content Include="img\TextBooks\30.png" />
+    <Content Include="img\TextBooks\31.png" />
+    <Content Include="img\TextBooks\32.png" />
+    <Content Include="img\TextBooks\33.png" />
+    <Content Include="img\TextBooks\34.png" />
+    <Content Include="img\TextBooks\35.png" />
+    <Content Include="img\TextBooks\36.png" />
+    <Content Include="img\TextBooks\4.png" />
+    <Content Include="img\TextBooks\5.png" />
+    <Content Include="img\TextBooks\6.png" />
+    <Content Include="img\TextBooks\7.png" />
+    <Content Include="img\TextBooks\8.png" />
+    <Content Include="img\TextBooks\9.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="ProductAdditionPage.aspx" />
+    <Content Include="ProductDeletionPage.aspx" />
+    <Content Include="ProductEditPage.aspx" />
+    <Content Include="ShoppingCart.aspx" />
+    <Content Include="Stationary.aspx" />
+    <Content Include="StationaryDetails.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="TextBooksDetails.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clothing.aspx.cs">
+      <DependentUpon>Clothing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clothing.aspx.designer.cs">
+      <DependentUpon>Clothing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClothingDetails.aspx.cs">
+      <DependentUpon>ClothingDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClothingDetails.aspx.designer.cs">
+      <DependentUpon>ClothingDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ComputerScience.aspx.cs">
+      <DependentUpon>ComputerScience.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComputerScience.aspx.designer.cs">
+      <DependentUpon>ComputerScience.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cProductCart.cs" />
+    <Compile Include="Education.aspx.cs">
+      <DependentUpon>Education.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Education.aspx.designer.cs">
+      <DependentUpon>Education.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Electronics.aspx.cs">
+      <DependentUpon>Electronics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Electronics.aspx.designer.cs">
+      <DependentUpon>Electronics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ElectronicsDetails.aspx.cs">
+      <DependentUpon>ElectronicsDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ElectronicsDetails.aspx.designer.cs">
+      <DependentUpon>ElectronicsDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Engineering.aspx.cs">
+      <DependentUpon>Engineering.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Engineering.aspx.designer.cs">
+      <DependentUpon>Engineering.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductAdditionPage.aspx.cs">
+      <DependentUpon>ProductAdditionPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductAdditionPage.aspx.designer.cs">
+      <DependentUpon>ProductAdditionPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDeletionPage.aspx.cs">
+      <DependentUpon>ProductDeletionPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductDeletionPage.aspx.designer.cs">
+      <DependentUpon>ProductDeletionPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductEditPage.aspx.cs">
+      <DependentUpon>ProductEditPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductEditPage.aspx.designer.cs">
+      <DependentUpon>ProductEditPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stationary.aspx.cs">
+      <DependentUpon>Stationary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stationary.aspx.designer.cs">
+      <DependentUpon>Stationary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StationaryDetails.aspx.cs">
+      <DependentUpon>StationaryDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StationaryDetails.aspx.designer.cs">
+      <DependentUpon>StationaryDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secrecy.cs" />
+    <Compile Include="TextBooksDetails.aspx.cs">
+      <DependentUpon>TextBooksDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TextBooksDetails.aspx.designer.cs">
+      <DependentUpon>TextBooksDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VVMasterPage.Master.cs">
+      <DependentUpon>VVMasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VVMasterPage.Master.designer.cs">
+      <DependentUpon>VVMasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdminPage.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdminPage.aspx.designer.cs">
+      <DependentUpon>WebAdminPage.aspx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VVMasterPage.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bootstrap\" />
+    <Folder Include="js\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49441/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

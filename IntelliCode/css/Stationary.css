@@ -1,0 +1,11 @@
+﻿body {
+    color : green;
+}
+#mathset ul li
+ {
+    padding : 15px;
+    list-style-type : none;
+    display : block ;
+    float : left;
+}
+

@@ -1,0 +1,32 @@
+﻿.imgDetails {
+    width: 200px;
+    height: 150px;
+    vertical-align: central;
+  
+}
+Body {
+   
+
+}
+.details {
+    font-size: 16px;
+    font-weight: bold;
+    color: navy;
+}
+.list
+{
+      padding : 0px 0px 0px 0px;
+      font-size: 16px;
+      font-weight: bold;
+       color : #6c1a1a;
+       font-family : Britannic;
+       font-style :italic;
+       text-shadow : initial;
+}
+li  {
+    text-decoration-line : none;
+    float : left;
+    display :  block;
+    display : inline;
+   
+}

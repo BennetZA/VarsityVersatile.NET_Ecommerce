@@ -1,0 +1,167 @@
+﻿body 
+{
+     
+    background:url('../../img/bg/1wallpaper_black_blue_hd_11.jpg') repeat ;
+
+	font-size:87.5%;
+	font-family:Arial, 'Lucida Sans Unicode';
+	text-align:left;
+}
+
+.slogan {
+    font-family:Blackoak Std;
+   text-shadow:5px 0px blue;
+    font:12em;
+    color:white;
+}
+
+.fontbanner{
+    color:#E3E3E3;
+    font-size:3em;
+    font-family:Rosewood Std;
+     text-shadow:1px 0px blue;
+}
+
+.bigV {
+    color:#E3E3E3;
+    color:ButtonHighlight;
+    font-size:5em;
+
+    font-family:Rosewood Std;
+     text-shadow:1px 0px blue;
+     stroke-opacity:initial;
+}
+
+.welcometext {
+
+    font-size:3em;
+    color:white;
+
+
+}
+
+
+
+
+#Wrapper
+{
+    background:#fff url('../../img/bg/1960757.jpg');
+   
+    width:1080px;
+    margin: 0 auto;
+    padding: 10px;
+    border:5px solid #dedede;
+    }
+
+
+#banner
+{
+        
+     color :blue;
+    background:black url('../../img/logo/VarsityVersitileLogoOfficial.png') no-repeat center;
+    
+    background-size: cover; 
+
+        background-size:953px 212px;
+
+
+    height:201px;
+    border: 3px solid #E3E3E3;
+    margin:10px 0 10px 0;
+}
+
+#nav
+{
+    background:black;
+	height:40px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+
+
+#nav ul{
+	list-style:none;
+	margin:0 auto;
+    border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+#nav ul li{
+	float:left;
+	display:inline;
+    border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+#nav a:link, a:visited{
+	color:#FFF;
+	display:inline-block;
+	padding: 10px 25px;
+	height:20px;
+    border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+#nav a:hover,#nav a:active,
+#active a:link,#active a:visited{
+	background-color:#CF5C3F;
+	text-shadow:none;
+    border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+#content-area
+{
+    clear:left;
+    float:left;
+    width:1030px;
+    margin:20px 0 20px 0;
+    padding: 10px;
+    border: 3px solid #E3E3E3;
+    background-color:white;
+    border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+      background:black url('../../img/bg/contentbg.jpg');
+    padding : 0px 50px 0px 0px;
+}
+
+
+#footer
+{
+     background:black;
+     color:#FFF;
+    clear:both;
+    text-align:center;
+    clear:both;
+    width: auto;
+    height: 40px;
+    margin-top: 20px;
+    border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+
+
+#RegForm:hover
+{
+    box-shadow: 1px 1px 15px #CF5C3F;
+    transition: all ease .3s;
+    transform:scale(1.1);
+    background-color:white;
+    text-align:center;
+
+}
+
+#messagePanel
+{
+    color:red;
+}
+
